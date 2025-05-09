@@ -40,6 +40,7 @@
   DeviceMemoryMapLib|a52sxqPkg/Library/DeviceMemoryMapLib/DeviceMemoryMapLib.inf
   DeviceConfigurationMapLib|a52sxqPkg/Library/DeviceConfigurationMapLib/DeviceConfigurationMapLib.inf
   DevicePrePiLib|a52sxqPkg/Library/DevicePrePiLib/DevicePrePiLib.inf
+  AcpiDeviceUpdateLib|SiliciumPkg/Library/AcpiDeviceUpdateLibNull/AcpiDeviceUpdateLibNull.inf
 
 [PcdsFixedAtBuild]
   gArmTokenSpaceGuid.PcdSystemMemoryBase|0x80000000
@@ -78,6 +79,9 @@
 
   # USB Controller
   gQcomPkgTokenSpaceGuid.PcdStartUsbController|TRUE
+
+  # Storage
+  gQcomPkgTokenSpaceGuid.PcdStorageIsUfs3|FALSE
 
 [PcdsDynamicDefault]
   gEfiMdeModulePkgTokenSpaceGuid.PcdVideoHorizontalResolution|1080

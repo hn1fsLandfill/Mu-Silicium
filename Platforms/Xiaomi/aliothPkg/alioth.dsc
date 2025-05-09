@@ -40,6 +40,7 @@
   DeviceMemoryMapLib|aliothPkg/Library/DeviceMemoryMapLib/DeviceMemoryMapLib.inf
   DeviceConfigurationMapLib|aliothPkg/Library/DeviceConfigurationMapLib/DeviceConfigurationMapLib.inf
   DevicePrePiLib|aliothPkg/Library/DevicePrePiLib/DevicePrePiLib.inf
+  AcpiDeviceUpdateLib|aliothPkg/Library/AcpiDeviceUpdateLib/AcpiDeviceUpdateLib.inf
 
 [PcdsFixedAtBuild]
   # DDR Start Address
@@ -89,7 +90,7 @@
   gQcomPkgTokenSpaceGuid.PcdInitCardSlot|FALSE
   
   # USB Controller
-  gQcomPkgTokenSpaceGuid.PcdStartUsbController|FALSE
+  gQcomPkgTokenSpaceGuid.PcdStartUsbController|TRUE
 
 [PcdsDynamicDefault]
   gEfiMdeModulePkgTokenSpaceGuid.PcdVideoHorizontalResolution|1080
@@ -102,6 +103,3 @@
   gEfiMdeModulePkgTokenSpaceGuid.PcdConOutRow|126
 
 !include SM8250Pkg/SM8250Pkg.dsc.inc
-
-[LibraryClasses]
-  AcpiPlatformUpdateLib|aliothPkg/Library/AcpiPlatformUpdateLib/AcpiPlatformUpdateLib.inf

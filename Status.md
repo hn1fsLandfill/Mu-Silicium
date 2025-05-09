@@ -12,6 +12,36 @@
 <br>
 
 <details>
+<summary><b><strong>Exynos 2400 Devices</strong></b></summary>
+
+## Samsung Galaxy S24
+
+<img align="right" src="Resources/Pictures/Samsung-Galaxy-S24.png" width="400" alt="Preview">
+
+**State: Active** <br>
+**Codename: e1s** <br>
+**Maintainer: [Robotix](https://github.com/Robotix22/)** <br>
+**Contributors: [Robotix](https://github.com/Robotix22/), [halal-beef](https://github.com/halal-beef/)** <br>
+**Tester: [Robotix](https://github.com/Robotix22/)**
+
+### UEFI Status
+
+| Feature            | Description    | State |
+|:-------------------|:---------------|:-----:|
+| Display            |                | ✅    |
+| Internal Storage   |                | ❌    |
+| Side Buttons       | Only Volume Up | ⚠️    |
+| USB Host Mode      |                | ❌    |
+| USB Device Mode    |                | ❌    |
+| USB Power Delivery |                | ❌    |
+| SD Card            |                | ❌    |
+| Windows Boot       |                | ❌    |
+| Linux Boot         |                | ❌    |
+
+  </summary>
+</details>
+
+<details>
 <summary><b><strong>Exynos 9830 Devices</strong></b></summary>
 
 ## Samsung Galaxy Note 20 5G
@@ -203,6 +233,36 @@
   </summary>
 </details>
 
+<details>
+<summary><b><strong>Exynos 7870 Devices</strong></b></summary>
+
+## Samsung Galaxy Tab A 10.1
+
+<img align="right" src="Resources/Pictures/Samsung-Galaxy-Tab-A-10.1.png" width="500" alt="Preview">
+
+**State: Active** <br>
+**Codename: gtaxllte** <br>
+**Maintainer: [Glitchythedev](https://github.com/Glitchythedev/)** <br>
+**Contributors: [Glitchythedev](https://github.com/Glitchythedev/)** <br>
+**Tester: [Glitchythedev](https://github.com/Glitchythedev/)**
+
+### UEFI Status
+
+| Feature            | Description | State |
+|:-------------------|:------------|:-----:|
+| Display            |             | ✅    |
+| Internal Storage   |             | ❌    |
+| Side Buttons       |             | ✅    |
+| USB Host Mode      |             | ❌    |
+| USB Device Mode    |             | ❌    |
+| USB Power Delivery |             | ❌    |
+| SD Card            |             | ❌    |
+| Windows Boot       |             | ❌    |
+| Linux Boot         |             | ❌    |
+
+  </summary>
+</details>
+
   </summary>
 </details>
 
@@ -233,17 +293,17 @@
 
 ### UEFI Status
 
-| Feature            | Description                   | State |
-|:-------------------|:------------------------------|:-----:|
-| Display            |                               | ✅    |
-| Internal Storage   |                               | ✅    |
-| Side Buttons       |                               | ✅    |
-| USB Host Mode      |                               | ❌    |
-| USB Device Mode    |                               | ✅    |
-| USB Power Delivery |                               | ❌    |
-| Mass Storage       | Spam both Vol- & Pwr to enter | ✅    |
-| Windows Boot       | WinPE Booted                  | ✅    |
-| Linux Boot         | Mainline WIP                  | ⚠️    |
+| Feature            | Description | State |
+|:-------------------|:-------------|:-----:|
+| Display            |              | ✅    |
+| Internal Storage   |              | ✅    |
+| Side Buttons       |              | ✅    |
+| USB Host Mode      |              | ❌    |
+| USB Device Mode    |              | ✅    |
+| USB Power Delivery |              | ❌    |
+| Mass Storage       |              | ✅    |
+| Windows Boot       | WinPE Booted | ✅    |
+| Linux Boot         | Mainline WIP | ⚠️    |
 
 ### OS Status
 
@@ -370,7 +430,8 @@
 <tr><th>Windows</th><th>Linux</th></tr>
 <tr><td>
 
-> NOTE: Only Windows Builds that are Build Nr. 26090 or above work!
+> [!NOTE]
+> Only Windows Builds that are Build Nr. 26090 or above work!
 
 | Feature              | Description   | State |
 |:---------------------|:--------------|:-----:|
@@ -379,8 +440,8 @@
 | Proximity Sensor     |               | ❌    |
 | Light Sensor         |               | ❌    |
 | Accelerometer Sensor |               | ❌    |
-| Compass Sensor       |               | ❌    | 
 | Gyroscope Sensor     |               | ❌    |
+| Magnetometer Sensor  |               | ❌    |
 | Fingerprint Sensor   |               | ❌    |
 | NFC Sensor           |               | ❌    |
 | Temperature Sensor   |  Only battery | ⚠️    |
@@ -405,22 +466,24 @@
 </td>
 <td>
 
-> NOTE: Linux Requires: [Mainline kernel](https://github.com/jiganomegsdfdf/aston-mainline)
+> [!NOTE]
+> Linux Requires: [Mainline kernel](https://github.com/jiganomegsdfdf/aston-mainline)<br>
+> Recommended Guide: [Ubuntu](https://github.com/jiganomegsdfdf/ubuntu-oneplus-aston)
 
 | Feature              | Description   | State |
 |:---------------------|:--------------|:-----:|
 | Internal Storage     |               | ✅    |
 | Side Buttons         |               | ✅    |
 | Proximity Sensor     |               | ❌    |
-| Light Sensor         |               | ❌    |
+| Light Sensor         |               | ✅    |
 | Accelerometer Sensor |               | ❌    |
-| Compass Sensor       |               | ❌    | 
-| Gyroscope Sensor     |Userspace issue| ⚠️    |
+| Gyroscope Sensor     |               | ❌    |
+| Magnetometer Sensor  |Userspace issue| ⚠️    |
 | Fingerprint Sensor   |               | ❌    |
 | NFC Sensor           |    Untested   | ⚠️    |
 | Temperature Sensor   |               | ✅    |
 | Battery              |               | ✅    |
-| USB Host Mode        |               | ❔    |
+| USB Host Mode        |               | ❌    |
 | USB Device Mode      |               | ✅    |
 | USB Power Delivery   |               | ❌    |
 | Charging             |  100W = 1.1W  | ⚠️    |
@@ -429,10 +492,10 @@
 | Touchscreen          |               | ✅    |
 | Bluetooth            |               | ✅    |
 | GPS                  |               | ❌    |
-| Speakers             |               | ❌    |
-| Microphone           |               | ❌    |
+| Speakers             |               | ✅    |
+| Microphone           |               | ✅    |
 | GPU                  |               | ✅    |
-| Camera               |               | ❌    |
+| Camera               |Only Front,Macro,UW| ✅    |
 | Mobile Data          |               | ❌    |
 | Display              |               | ✅    | 
 | Vibration            |               | ❌    |
@@ -558,9 +621,9 @@
 <details>
 <summary><b><strong>Samsung Devices</strong></b></summary>
 
-## Samsung Galaxy Tab S8+
+## Samsung Galaxy Tab S8+ 5G
 
-<img align="right" src="Resources/Pictures/Samsung-Galaxy-Tab-S8+.png" width="500" alt="Preview">
+<img align="right" src="Resources/Pictures/Samsung-Galaxy-Tab-S8+-5G.png" width="500" alt="Preview">
 
 **State: Active** <br>
 **Codename: gts8p** <br>
@@ -570,18 +633,18 @@
 
 ### UEFI Status
 
-| Feature            | Description                     | State |
-|:-------------------|:--------------------------------|:-----:|
-| Display            |                                 | ✅    |
-| Internal Storage   |                                 | ✅    |
-| Side Buttons       |                                 | ✅    |
-| USB Host Mode      |                                 | ❌    |
-| USB Device Mode    | Unstable                        | ⚠️    |
-| USB Power Delivery |                                 | ❌    |
-| Mass Storage       | Only works on first USB Connect | ⚠️    |
-| SD Card            |                                 | ❌    |
-| Windows Boot       |                                 | ✅    |
-| Linux Boot         |                                 | ❌    |
+| Feature            | Description                                          | State |
+|:-------------------|:-----------------------------------------------------|:-----:|
+| Display            |                                                      | ✅    |
+| Internal Storage   |                                                      | ✅    |
+| Side Buttons       |                                                      | ✅    |
+| USB Host Mode      |                                                      | ❌    |
+| USB Device Mode    | Requires a Reconnect if it was Connected during Boot | ✅    |
+| USB Power Delivery |                                                      | ❌    |
+| Mass Storage       |                                                      | ✅    |
+| SD Card            | Power On Code is Missing                             | ❌    |
+| Windows Boot       |                                                      | ✅    |
+| Linux Boot         |                                                      | ❌    |
 
 ### OS Status
 
@@ -819,6 +882,78 @@
 | Mass Storage       |Needs Device Mode  | ❌    |
 | Windows Boot       |                   | ❌    |
 | Linux Boot         |                   | ❌    |
+
+  </summary>
+</details>
+
+<details>
+<summary><b><strong>OnePlus Devices</strong></b></summary>
+
+## Oneplus 9
+
+<img align="right" src="Resources/Pictures/Oneplus-9.png" width="500" alt="Preview">
+
+**State: Active** <br>
+**Codename: lemonade** <br>
+**Maintainer: arminask** <br>
+**Contributors: [Robotix](https://github.com/Robotix22/)** <br>
+**Tester: None**
+
+### UEFI Status
+
+| Feature            | Description       | State |
+|:-------------------|:------------------|:-----:|
+| Display            |                   | ✅    |
+| Internal Storage   |                   | ✅    |
+| Side Buttons       |                   | ✅    |
+| USB Host Mode      |                   | ✅    |
+| USB Device Mode    |                   | ✅    |
+| USB Power Delivery |                   | ❌    |
+| Mass Storage       |                   | ✅    |
+| Windows Boot       |                   | ✅    |
+| Linux Boot         |                   | ❌    |
+
+### OS Status
+
+<table>
+<tr><th>Windows</th></tr>
+<tr><td>
+
+| Feature              | Description | State |
+|:---------------------|:------------|:-----:|
+| Internal Storage     |             | ✅    |
+| Side Buttons         |             | ✅    |
+| Proximity Sensor     |             | ❌    |
+| Light Sensor         |             | ❌    |
+| Accelerometer Sensor |             | ❌    |
+| Compass Sensor       |             | ❌    |
+| Gyroscope Sensor     |             | ❌    |
+| Barometer Sensor     |             | ❌    |
+| Geomagnetic Sensor   |             | ❌    |
+| Fingerprint Sensor   |             | ❌    |
+| Hall Sensor          |             | ❌    |
+| Gravity Sensor       |             | ❌    |
+| NFC Sensor           |             | ❌    |
+| Temperature Sensor   |             | ✅    |
+| Battery              |             | ✅    |
+| USB Host Mode        |             | ✅    |
+| USB Device Mode      |             | ✅    |
+| USB Power Delivery   |             | ❌    |
+| Charging             |             | ✅    |
+| WLAN                 |             | ❌    |
+| CPU                  |             | ✅    |
+| Touchscreen          |             | ❌    |
+| Bluetooth            |             | ❌    |
+| GPS                  |             | ✅    |
+| Speakers             |             | ❌    |
+| Microphone           |             | ❌    |
+| GPU                  |             | ❌    |
+| Camera               |             | ❌    |
+| Mobile Data          |             | ❌    |
+| Display              |             | ✅    |
+| Vibration            |             | ❌    |
+
+</td></tr> </table>
 
   </summary>
 </details>
@@ -1457,10 +1592,10 @@
 | Display            |                | ✅    |
 | Internal Storage   |                | ✅    |
 | Side Buttons       |                | ✅    |
-| USB Host Mode      |                | ✅    |
+| USB Host Mode      |                | ❌    |
 | USB Device Mode    |                | ✅    |
-| USB Power Delivery |                | ✅    |
-| Mass Storage       | Unknown Issues | ❌    |
+| USB Power Delivery |                | ❌    |
+| Mass Storage       |                | ✅    |
 | Windows Boot       |                | ✅    |
 | Linux Boot         |                | ✅    |
 
@@ -1469,8 +1604,6 @@
 <table>
 <tr><th>Windows</th><th>Linux</th></tr>
 <tr><td>
-
-> NOTE: Needs [Windows Drivers](https://github.com/N1kroks/SM8250-Drivers)!
 
 | Feature              | Description                       | State |
 |:---------------------|:----------------------------------|:-----:|
@@ -1483,7 +1616,7 @@
 | Gyroscope Sensor     |                                   | ❌    |
 | Fingerprint Sensor   |                                   | ❌    |
 | NFC Sensor           |                                   | ❌    |
-| Battery              |                                   | ✅    |
+| Battery              |                                   | ❌    |
 | USB Host Mode        |                                   | ❌    |
 | USB Device Mode      |                                   | ✅    |
 | USB Power Delivery   |                                   | ❌    |
@@ -1515,7 +1648,7 @@
 | Compass Sensor       |                                   | ✅    |
 | Gyroscope Sensor     |                                   | ❌    |
 | Fingerprint Sensor   |                                   | ❌    |
-| NFC Sensor           |                                   | ❌    |
+| NFC Sensor           |                                   | ✅    |
 | Battery              |                                   | ✅    |
 | USB Host Mode        |                                   | ✅    |
 | USB Device Mode      |                                   | ✅    |
@@ -1714,12 +1847,12 @@
 | USB Power Delivery |             | ❌    |
 | Mass Storage       |             | ✅    |
 | Windows Boot       |             | ✅    |
-| Linux Boot         | Untested    | ❔    |
+| Linux Boot         |             | ✅    |
 
 ### OS Status
 
 <table>
-<tr><th>Windows</th></tr>
+<tr><th>Windows</th><th>Linux</th></tr>
 <tr><td>
 
 > NOTE: Needs [Windows Drivers](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/Drivers)!
@@ -1751,7 +1884,39 @@
 | Display              |                                                              | ✅    |
 | Vibration            |                                                              | ❌    |
 
-</td></tr> </table>
+</td>
+<td>
+
+> NOTE: Linux Requires: [Mainline kernel](https://gitlab.com/sm8150-mainline/linux)
+
+| Feature              | Description                                                  | State |
+|:---------------------|:-------------------------------------------------------------|:-----:|
+| Internal Storage     |                                                              | ✅    |
+| Side Buttons         |                                                              | ✅    |
+| Proximity Sensor     |                                                              | ❌    |
+| Accelerometer Sensor |                                                              | ❌    |
+| Compass Sensor       |                                                              | ❌    |
+| Gyroscope Sensor     |                                                              | ❌    |
+| Fingerprint Sensor   |                                                              | ❌    |
+| NFC Sensor           |                                                              | ❌    |
+| Temperature Sensor   |                                                              | ✅    |
+| Battery              |                                                              | ✅    |
+| USB                  |                                                              | ✅    |
+| Charging             |                                                              | ✅    |
+| WLAN                 |                                                              | ✅    |
+| CPU                  |                                                              | ✅    |
+| Touchscreen          |                                                              | ✅    |
+| Bluetooth            |                                                              | ✅    |
+| GPS                  |                                                              | ❌    |
+| Speakers             | Top right speaker doesn't work                               | ⚠    |
+| Microphone           |                                                              | ✅    |
+| GPU                  |                                                              | ✅    |
+| Flashlight           |                                                              | ❌    |
+| Camera               |                                                              | ❌    |
+| Display              |                                                              | ✅    |
+| Vibration            |                                                              | ❌    |
+
+</td></tr></table>
 
 ## Xiaomi Mi 9
 
@@ -2259,19 +2424,19 @@
 | Internal Storage     |                       | ✅    |
 | SD Card              |                       | ✅️    |
 | Side Buttons         |                       | ✅    |
-| Proximity Sensor     |                       | ❌    |
-| Light Sensor         |                       | ❌    |
-| Accelerometer Sensor |                       | ❌    |
-| Compass Sensor       |                       | ❌    |
+| Proximity Sensor     |                       | ✅    |
+| Light Sensor         |                       | ✅    |
+| Accelerometer Sensor |                       | ✅    |
+| Compass Sensor       |                       | ✅    |
 | Fingerprint Sensor   |                       | ❌    |
-| Hall Sensor          |                       | ❌    |
+| Hall Sensor          |                       | ✅    |
 | NFC Sensor           |                       | ❌    |
 | Temperature Sensor   |                       | ✅    |
 | Battery              |                       | ✅    |
 | USB Host Mode        |                       | ✅    |
 | USB Device Mode      |                       | ✅    |
 | USB Power Delivery   |                       | ❌    |
-| Charging             |                       | ❌    |
+| Charging             |                       | ✅    |
 | WLAN                 |                       | ✅    |
 | CPU                  |                       | ✅    |
 | Touchscreen          |                       | ✅    |
@@ -2283,7 +2448,7 @@
 | Camera               |                       | ❌    |
 | Mobile Data          |                       | ❌    |
 | Display              |                       | ✅    |
-| Vibration            |                       | ❌    |
+| Vibration            |                       | ✅    |
 
 </td></tr> </table>
 
@@ -3094,10 +3259,36 @@
 
 </td></tr> </table>
 
+## Xiaomi Redmi Note 8
+
+<img align="right" src="Resources/Pictures/Xiaomi-Redmi-Note-8.png" width="500" alt="Preview">
+
+**State: Inactive** <br>
+**Codename: ginkgo** <br>
+**Maintainer: None** <br>
+**Contributors: [index986](https://github.com/index986/)** <br>
+**Testers: None**
+
+### UEFI Status
+
+| Feature            | Description               | State |
+|:-------------------|:--------------------------|:-----:|
+| Display            |                           | ✅    |
+| Internal Storage   |                           | ✅    |
+| Side Buttons       |                           | ✅    |
+| USB Host Mode      |                           | ✅    |
+| USB Device Mode    |                           | ❌    |
+| USB Power Delivery |                           | ✅    |
+| Mass Storage       | Needs Device mode         | ❌    |
+| SD Card            |                           | ❌    |
+| Windows Boot       |                           | ❌    |
+| Linux Boot         |                           | ❌    |
+
+
   </summary>
 </details>
+</td></tr> </table>
 
----
 
   </summary>
 </details>

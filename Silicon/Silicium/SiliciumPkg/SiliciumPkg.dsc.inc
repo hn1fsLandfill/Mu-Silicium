@@ -39,7 +39,7 @@
   #
   # Vendor Stuff
   #
-  gEfiMdeModulePkgTokenSpaceGuid.PcdFirmwareVersionString|L"3.0.5"
+  gEfiMdeModulePkgTokenSpaceGuid.PcdFirmwareVersionString|L"3.0.6"
   gEfiMdeModulePkgTokenSpaceGuid.PcdFirmwareVendor|L"Project Silicium"
   gEfiMdeModulePkgTokenSpaceGuid.PcdFirmwareRevision|0x01231229
 
@@ -174,6 +174,7 @@
   PeCoffLib|MdePkg/Library/BasePeCoffLib/BasePeCoffLib.inf
   PeCoffExtraActionLib|MdePkg/Library/BasePeCoffExtraActionLibNull/BasePeCoffExtraActionLibNull.inf
   PrePiLib|EmbeddedPkg/Library/PrePiLib/PrePiLib.inf
+  PeiHobLib|SiliciumPkg/Library/PeiHobLib/PeiHobLib.inf
 
   #
   # UEFI Libraries

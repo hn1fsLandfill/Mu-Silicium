@@ -24,7 +24,7 @@
   HAS_PSCI_MEMPROTECT_FAILING_ERRATA         = 0
 
 [BuildOptions]
-  *_*_AARCH64_CC_FLAGS = -march=armv8.2-a+crypto+rcpc
+  *_*_AARCH64_CC_FLAGS = -march=armv8-a+crypto+rcpc
 
 [PcdsFixedAtBuild]
   # Timer
@@ -49,6 +49,21 @@
   # CPU
   gArmPlatformTokenSpaceGuid.PcdCoreCount|8
   gArmPlatformTokenSpaceGuid.PcdClusterCount|3
+  gSiliciumPkgTokenSpaceGuid.PcdSmbiosMaxCpuFreq|2730
+
+  # CPU Caches
+  gSiliciumPkgTokenSpaceGuid.PcdSmbiosLevel1InstCacheSize|0x100
+  gSiliciumPkgTokenSpaceGuid.PcdSmbiosLevel1DataCacheSize|0x100
+  gSiliciumPkgTokenSpaceGuid.PcdSmbiosLevel2CacheSize|0x400
+  gSiliciumPkgTokenSpaceGuid.PcdSmbiosLevel3CacheSize|0x1000
+
+  # Memory Speed & Type
+  gSiliciumPkgTokenSpaceGuid.PcdSmbiosMemorySpeed|2750    # Unoffical Value
+  gSiliciumPkgTokenSpaceGuid.PcdSmbiosMemoryType|35
+
+  # DDR Info
+  gSamsungPkgTokenSpaceGuid.PcdDdrInfoOffset|0x2AC00
+  gSamsungPkgTokenSpaceGuid.PcdDdrSizeInfoOffset|0x848
 
 [LibraryClasses]
   PlatformPrePiLib|E9830Pkg/Library/PlatformPrePiLib/PlatformPrePiLib.inf
@@ -56,9 +71,8 @@
   HwResetSystemLib|E9830Pkg/Library/ResetSystemLib/ResetSystemLib.inf
   ResetSystemLib|E9830Pkg/Library/ResetSystemLib/ResetSystemLib.inf
   SoCPlatformLib|E9830Pkg/Library/SoCPlatformLib/SoCPlatformLib.inf
-  ExynosSpeedyLib|E9830Pkg/Library/ExynosSpeedyLib/ExynosSpeedyLib.inf
 
 [Components]
-  E9830Pkg/Drivers/SmBiosTableDxe/SmBiosTableDxe.inf
+  E9830Pkg/Drivers/S2MPS_19_22Dxe/S2MPS_19_22Dxe.inf
 
 !include SamsungPkg/SamsungPkg.dsc.inc
