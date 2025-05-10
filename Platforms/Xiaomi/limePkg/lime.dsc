@@ -49,6 +49,9 @@
   gEmbeddedTokenSpaceGuid.PcdPrePiStackBase|0x5FF90000
   gEmbeddedTokenSpaceGuid.PcdPrePiStackSize|0x00040000
 
+  # Force ACPI to get OpenBSD working
+  gEmbeddedTokenSpaceGuid.PcdDefaultDtPref|FALSE
+
   # SmBios
   gSiliciumPkgTokenSpaceGuid.PcdSmbiosSystemManufacturer|"Xiaomi Inc"
   gSiliciumPkgTokenSpaceGuid.PcdSmbiosSystemModel|"Redmi 9T"
