@@ -40,7 +40,7 @@
   gArmTokenSpaceGuid.PcdSystemMemoryBase|0x40000000
 
   # Device Maintainer
-  gSiliciumPkgTokenSpaceGuid.PcdDeviceMaintainer|"No Maintainer"
+  gSiliciumPkgTokenSpaceGuid.PcdDeviceMaintainer|"hn1f"
 
   # CPU Vector Address
   gArmTokenSpaceGuid.PcdCpuVectorBaseAddress|0x5FF8C000

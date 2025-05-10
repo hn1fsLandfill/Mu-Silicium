@@ -3432,11 +3432,11 @@
 
 <img align="right" src="Resources/Pictures/Xiaomi-Redmi-9T.png" width="500" alt="Preview">
 
-**State: Inactive** <br>
+**State: Active** <br>
 **Codename: lime** <br>
-**Maintainer: None** <br>
+**Maintainer: hn1f** <br>
 **Contributors: [Robotix](https://github.com/Robotix22/)** <br>
-**Tester: None**
+**Tester: hn1f**
 
 ### UEFI Status
 
@@ -3452,8 +3452,49 @@
 | SD Card            |                   | ❌    |
 | Windows Boot       | Windows PE only   | ⚠️    |
 | Linux Boot         |                   | ❌    |
+| OpenBSD Boot       |                   | ✅    |
 
 ### OS Status
+
+### OS Status
+
+<table>
+<tr><th>OpenBSD</th></tr>
+<tr><td>
+
+| Feature              | Description  | State |
+|:---------------------|:-------------|:-----:|
+| Internal Storage     |              | ❌    |
+| SD Card              |              | ❌    |
+| Side Buttons         |              | ❌    |
+| Proximity Sensor     |              | ❌    |
+| Light Sensor         |              | ❌    |
+| Accelerometer Sensor |              | ❌    |
+| Compass Sensor       |              | ❌    |
+| Gyroscope Sensor     |              | ❌    |
+| Fingerprint Sensor   |              | ❌    |
+| NFC Sensor           |              | ❌    |
+| Temperature Sensor   |              | ❌    |
+| Battery              | shows up as apm0 | ⚠️    |
+| USB Host Mode        |              | ✅    |
+| USB Device Mode      |              | ❌    |
+| USB Power Delivery   |              | ❌    |
+| Charging             |              | ❌    |
+| WLAN                 |              | ❌    |
+| CPU                  | 1 core only  | ⚠️    |
+| Touchscreen          |              | ❌    |
+| Bluetooth            |              | ❌    |
+| GPS                  |              | ❌    |
+| Speakers             |              | ❌    |
+| 3.5mm Audio Jack     |              | ❌    |
+| Microphone           |              | ❌    |
+| GPU                  |              | ❌    |
+| Camera               |              | ❌    |
+| Mobile Data          |              | ❌    |
+| Display              |              | ✅    |
+| Vibration            |              | ❌    |
+
+</td></tr> </table>
 
 <table>
 <tr><th>Windows</th></tr>
