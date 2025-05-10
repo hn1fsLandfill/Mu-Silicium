@@ -451,7 +451,7 @@ MemDevInfoUpdateSmbiosType17 (IN UINT64 SystemMemorySize)
       mMemDevInfoType17.MemorySubsystemControllerManufacturerID = DdrInfos.manufacturer_id;
     }
 
-    if (mDdrInfoProtocol->Revision >= 0x30000 && !FixedPcdGetBool (PcdForceMemorySpeed)) {
+    if (mDdrInfoProtocol->Revision < 0x30000 && !FixedPcdGetBool (PcdForceMemorySpeed)) {
       // Get DDR Freq
       Status = mDdrInfoProtocol->GetDDRFreq (mDdrInfoProtocol, &DdrFreq);
       if (EFI_ERROR (Status)) {
